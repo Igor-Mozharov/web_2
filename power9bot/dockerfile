@@ -6,8 +6,6 @@ COPY . .
 
 WORKDIR /power9bot
 
-
 ENTRYPOINT ["python"]
-
 
 CMD ["main.py"]

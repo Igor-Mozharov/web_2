@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "web-2"
+version = "0.1.0"
+description = ""
+authors = ["Igor-Mozharov <r5@ukr.net>"]
+readme = "README.md"
+packages = [{include = "web_2"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
